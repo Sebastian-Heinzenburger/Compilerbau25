@@ -62,7 +62,7 @@ public class Lexer implements LexerIntf {
     public Token nextToken() throws Exception {
         return new Token();
     }
-
+    //test
     public void processInput(String input, OutputStreamWriter outStream) throws Exception {
         m_input = new MultiLineInputReader(input);
         // while input available
